@@ -70,7 +70,7 @@ if __name__ == '__main__':
     # simple site
     crawler = Crawler('https://briefy.co')
 
-    # big site can take ours without
+    # big site can take ours in this initial implementation
     # crawler = Crawler('https://www.terra.com.br')
 
     for link in crawler.run():
